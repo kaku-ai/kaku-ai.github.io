@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign up for Kaku - AI-powered group event coordination via SMS.">
+  <title>Get Started with Kaku - SMS Opt-In</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>K</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">Ka<span>ku</span></a>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="sms-terms.html">SMS Terms</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="optin-hero">
+    <div class="container">
+      <h1>Get started with Kaku</h1>
+      <p>Sign up to coordinate group events with your friends via AI-powered text messaging.</p>
+    </div>
+  </section>
+
+  <!-- Opt-In Form -->
+  <section class="optin-form-section">
+    <div class="container">
+      <div class="optin-card">
+        <h2>Create your account</h2>
+        <p class="optin-subtitle">Start planning events in minutes.</p>
+
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" autocomplete="email">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567" autocomplete="tel">
+          </div>
+
+          <div class="checkbox-group">
+            <input type="checkbox" id="sms-consent" name="sms_consent">
+            <label for="sms-consent">
+              I agree to receive automated text messages from Kaku for event coordination purposes. Message frequency varies based on activity. Message and data rates may apply. Reply STOP to cancel at any time. I have read and agree to the <a href="privacy.html">Privacy Policy</a>, <a href="terms.html">Terms of Service</a>, and <a href="sms-terms.html">SMS/Messaging Terms</a>.
+            </label>
+          </div>
+
+          <div class="optin-disclaimers">
+            <p>Message and data rates may apply. Message frequency varies based on your event coordination activity.</p>
+            <p>Reply STOP to unsubscribe at any time. Reply HELP for help.</p>
+            <p>By signing up, you consent to receive AI-powered event coordination messages via SMS. Consent is not a condition of purchase.</p>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--full">Get Started</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">Ka<span>ku</span></div>
+        <ul class="footer__links">
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="sms-terms.html">SMS Terms</a></li>
+          <li><a href="opt-in.html">SMS Opt-In</a></li>
+          <li><a href="mailto:support@kaku.app">Contact</a></li>
+        </ul>
+        <div class="footer__copy">&copy; 2026 Kaku. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
