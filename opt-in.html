@@ -32,70 +32,75 @@
   </header>
 
   <!-- Hero -->
-  <section class="optin-hero">
-    <div class="container">
+  <section class="legal-hero">
+    <div class="container--narrow">
       <h1>SMS Opt-In</h1>
-      <p>How Kaku collects consent before sending you text messages.</p>
+      <p class="last-updated">How Kaku collects consent before sending you text messages.</p>
     </div>
   </section>
 
-  <!-- Opt-In Info -->
-  <section class="optin-form-section">
+  <!-- How It Works Steps -->
+  <section class="how-it-works">
     <div class="container">
-      <div class="optin-card">
+      <div class="section-header">
         <h2>How it works</h2>
-        <p class="optin-subtitle">Kaku is an AI-powered group event coordinator. When someone you know uses Kaku to plan an event and adds you as a participant, here's what happens:</p>
+        <p>Kaku is an AI-powered group event coordinator. When someone you know uses Kaku to plan an event and adds you as a participant, here's what happens:</p>
+      </div>
 
-        <div class="optin-steps">
-          <div class="optin-step">
-            <div class="optin-step__number">1</div>
-            <div class="optin-step__content">
-              <h3>You receive an introductory message</h3>
-              <p>Kaku sends you a single text message identifying who added you, what the event is about, and asks for your consent to continue messaging.</p>
-              <div class="optin-example">
-                <p><em>"Hi! Your friend Justin is using Kaku to plan brunch this weekend and added you. Reply <strong>YES</strong> to participate and receive event updates, or reply <strong>STOP</strong> to opt out. Msg &amp; data rates may apply."</em></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="optin-step">
-            <div class="optin-step__number">2</div>
-            <div class="optin-step__content">
-              <h3>You reply YES to consent</h3>
-              <p>Only after you reply <strong>YES</strong> does Kaku begin sending you event coordination messages, such as availability questions, confirmations, and updates.</p>
-            </div>
-          </div>
-
-          <div class="optin-step">
-            <div class="optin-step__number">3</div>
-            <div class="optin-step__content">
-              <h3>You can opt out at any time</h3>
-              <p>Reply <strong>STOP</strong> to any message to immediately stop receiving texts from Kaku. Reply <strong>HELP</strong> for support.</p>
-            </div>
-          </div>
+      <div class="steps" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="step">
+          <div class="step__number">1</div>
+          <h3>You receive an introductory message</h3>
+          <p>Kaku sends you a single text message identifying who added you, what the event is about, and asks for your consent to continue messaging.</p>
         </div>
 
-        <div class="optin-disclaimers">
-          <h3>Important information</h3>
-          <ul>
-            <li>Messages are sent for <strong>event coordination only</strong> — never for marketing or promotional purposes.</li>
-            <li>Message frequency varies based on event activity (typically 2–10 messages per event).</li>
-            <li>Message and data rates may apply.</li>
-            <li>Consent is <strong>not</strong> a condition of any purchase.</li>
-            <li>Reply <strong>STOP</strong> to unsubscribe at any time. Reply <strong>HELP</strong> for help.</li>
-            <li>For support, contact <a href="mailto:support@kaku-ai.com">support@kaku-ai.com</a>.</li>
-          </ul>
+        <div class="step">
+          <div class="step__number">2</div>
+          <h3>You reply YES to consent</h3>
+          <p>Only after you reply <strong>YES</strong> does Kaku begin sending you event coordination messages, such as availability questions, confirmations, and updates.</p>
         </div>
 
-        <div class="optin-disclaimers">
-          <h3>Related policies</h3>
-          <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="sms-terms.html">SMS/Messaging Terms</a></li>
-          </ul>
+        <div class="step">
+          <div class="step__number">3</div>
+          <h3>You can opt out at any time</h3>
+          <p>Reply <strong>STOP</strong> to any message to immediately stop receiving texts from Kaku. Reply <strong>HELP</strong> for support.</p>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Sample Message -->
+  <section class="features">
+    <div class="container--narrow">
+      <div class="section-header">
+        <h2>Sample introductory message</h2>
+      </div>
+
+      <div class="legal-highlight">
+        <p><em>"Hi! Your friend Justin is using Kaku to plan brunch this weekend and added you. Reply <strong>YES</strong> to participate and receive event updates, or reply <strong>STOP</strong> to opt out. Msg &amp; data rates may apply."</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Important Information -->
+  <section class="legal-content">
+    <div class="container--narrow">
+      <h2>Important information</h2>
+      <ul>
+        <li>Messages are sent for <strong>event coordination only</strong> — never for marketing or promotional purposes.</li>
+        <li>Message frequency varies based on event activity (typically 2–10 messages per event).</li>
+        <li>Message and data rates may apply.</li>
+        <li>Consent is <strong>not</strong> a condition of any purchase.</li>
+        <li>Reply <strong>STOP</strong> to unsubscribe at any time. Reply <strong>HELP</strong> for help.</li>
+        <li>For support, contact <a href="mailto:support@kaku-ai.com">support@kaku-ai.com</a>.</li>
+      </ul>
+
+      <h2>Related policies</h2>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms of Service</a></li>
+        <li><a href="sms-terms.html">SMS/Messaging Terms</a></li>
+      </ul>
     </div>
   </section>
 
