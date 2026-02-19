@@ -1,0 +1,17 @@
+{
+  "name": "Kaku",
+  "short_name": "Kaku",
+  "description": "AI-powered group event coordination",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#E17055",
+  "icons": [
+    {
+      "src": "app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
